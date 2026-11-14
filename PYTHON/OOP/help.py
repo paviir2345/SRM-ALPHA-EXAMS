@@ -30,13 +30,3 @@ class item:
                 has_numpad=bool(item_data.get('has_numpad'))
             )
 
-"""the static method is used to check if a number is an integer or not. 
-It takes a number as input and returns True if the number is an integer, 
-and False otherwise. The method first checks if the input is a float, and if so, 
-it uses the is_integer() method to check if it is an integer. If the input is an int,
- it returns True. If the input is neither a float nor an int, it returns False.
-The class method is used to instantiate objects of the item class from a CSV file.
- It reads the CSV file using the csv module and creates a list of dictionaries 
- representing each row in the file. It then iterates over the list of dictionaries
-   and creates an instance of the item class for each row, passing in the values 
-   from the dictionary as arguments to the constructor. The method uses the Path module to get the path to the CSV file relative to the current file."""

@@ -1,9 +1,9 @@
-class Item:
+class Item:               #creation of class
     pass
 
-item1 = Item()
+item1 = Item()             #instance of class
 
-item1.name = "Phone"
+item1.name = "Phone"        #attributes
 item1.price = 100
 item1.quantity = 5
 
@@ -14,7 +14,7 @@ print(type(item1.quantity))
 
 class Item:
 
-    def __init__(self):
+    def __init__(self):                
         pass
 
     def calculate_total_price(self, x, y):
